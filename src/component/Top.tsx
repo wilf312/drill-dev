@@ -4,12 +4,14 @@ import styled from 'styled-components';
 const Wrap = styled.div`
   max-width: 800px;
   margin: auto;
+  padding: 8px;
+  box-sizing: border-box;
 `
 const Title = styled.h1`
   font-size: 30px;
   padding: 24px;
   text-align: center;
-
+  font-family: 'Cantarell', sans-serif;
 `
 const 見出し = styled.h2`
   font-size: 24px;
