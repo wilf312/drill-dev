@@ -1,16 +1,13 @@
-import React, { useState } from "react";
-import styled from 'styled-components';
-import "./App.css";
+import React from "react";
+import "./global/App.css";
+import "./global/reset.css";
 
-
-const Test = styled.div`
-`
+import {Top} from './component/Top'
 
 const App: React.FC = () => {
   return (
     <div className="App">
-      <Test
-      >aaaaa</Test>
+      <Top />
     </div>
   );
 };
