@@ -13,7 +13,7 @@ const Title = styled.h1`
   text-align: center;
   font-family: 'Cantarell', sans-serif;
 `
-const 見出し = styled.h2`
+const H2 = styled.h2`
   font-size: 24px;
   line-height: 1.8em;
   margin: 16px 0 8px;
@@ -29,14 +29,14 @@ export const Top: React.FC = () => {
         <Title>DRILL</Title>
         <Para>株式会社DRILLはWebアプリケーションにおけるフロントエンドチーム開発の最適化を行い 継続可能なチーム設計をする会社です。</Para>
 
-        <見出し>Mission</見出し>
+        <H2>Mission</H2>
         <Para>SaaSサービスが継続可能なチームにし、ビジネスのスピードを加速する</Para>
 
-        <見出し>Vision</見出し>
+        <H2>Vision</H2>
         <Para>開発チームがかかえる課題をクリアにする</Para>
         <Para>開発チームの文化を作り、システムを進化させる</Para>
 
-        <見出し>Value</見出し>
+        <H2>Value</H2>
         <Para>Webアプリケーションを作る上で混乱する業務フローの最適化</Para>
         <Para>フロントエンド開発者の教育</Para>
         <Para>開発プロセスの最適化</Para>
