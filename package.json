@@ -38,7 +38,7 @@
   },
   "devDependencies": {
     "@types/styled-components": "5.1.2",
-    "cypress": "5.0.0",
+    "cypress": "5.1.0",
     "styled-components": "5.1.1"
   }
 }
