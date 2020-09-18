@@ -12,7 +12,7 @@
   "dependencies": {
     "@reach/router": "1.3.4",
     "@types/jest": "26.0.14",
-    "@types/node": "12.12.61",
+    "@types/node": "12.12.62",
     "@types/reach__router": "1.3.5",
     "@types/react": "16.9.49",
     "@types/react-dom": "16.9.8",
@@ -22,7 +22,7 @@
     "react-image": "4.0.3",
     "react-loader-spinner": "3.1.14",
     "react-scripts": "3.4.3",
-    "typescript": "4.0.2"
+    "typescript": "4.0.3"
   },
   "browserslist": {
     "production": [
