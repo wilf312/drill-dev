@@ -1,6 +1,6 @@
 import React from "react";
-import "./global/App.css";
 import "./global/reset.css";
+import "./global/App.css";
 
 import {Top} from './component/Top'
 
