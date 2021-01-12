@@ -1,5 +1,28 @@
 
 html {
   font-family: "\30D2\30E9\30AE\30CE\89D2\30B4   Pro W3",Hiragino Kaku Gothic Pro,"\30E1\30A4\30EA\30AA",Meiryo,Osaka,"\FF2D\FF33   \FF30\30B4\30B7\30C3\30AF",MS PGothic,sans-serif;
-  font-size: 62.5%
+  font-size: 18px;
+  min-height: 100vh;
+}
+
+/* CSS variable */
+html {
+  --margin: 8px;
+  --invert-ligth: 0;
+  --invert-dark: 0.9;
+}
+
+/* カラー */
+html {
+  color: #1b1b1b;
+  background: #f3f3f3;
+}
+html.light {
+  filter: invert(var(--invert-ligth));
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    filter: invert(var(--invert-dark));
+  }
 }
